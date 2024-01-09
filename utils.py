@@ -111,4 +111,4 @@ def dataset_forecast(mean_table):
     plt.title('Polynomial Regression Fit')
     plt.legend()
     plt.show()
-    return polynomial
+    return polynomial, plt.plot
