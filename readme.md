@@ -8,19 +8,11 @@ When training on PVD I noticed that even the smallest available models would qui
 
 Models train on PDD struggle to reach above 70% accuracy, even models like resnet50, which were much larger than those in the paper. There are also clearly some data quality issues since the data was collected through web scraping rather than expert plant pathologist collection and labelling.
 
-[ IMAGES HERE]
-
-Fig 1: image showing data quality issues
-
 Additionally, the dataset is an order of magnitude smaller than PVD, coming in at only 2500 images. We can see based on this graph that the efficientnet b0 has not fully saturated and accuracy continues to trend upwards as we add more data.
-
-[graph here]
-
-fig 2:
 
 ##### Limitations
 
-due to time constraints I did not have a chance to review all datasets, so it's possible some of these problems have been addressed. However, this project has given me a deeper understanding of some of the potential pitfalls one could face in an ML plant pathology project and it will only aid me in digging deeper into the field
+Due to time constraints I did not have a chance to review all datasets, so it's possible some of these problems have been addressed. However, this project has given me a deeper understanding of some of the potential pitfalls one could face in an ML plant pathology project and it will only aid me in digging deeper into the field
 
 #### References
 
